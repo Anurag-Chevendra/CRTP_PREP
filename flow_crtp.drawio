@@ -1,0 +1,613 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="pwPwg3jZ4V9R2uBaTmBE">
+    <mxGraphModel dx="1843" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-1" target="igHpn69yzNw5KjrUSqZ8-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-1" value="SVCADMIN cmd&lt;br&gt;(DA)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-2" target="igHpn69yzNw5KjrUSqZ8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-2" value="Student vm admin cmd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-4" target="igHpn69yzNw5KjrUSqZ8-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-4" target="igHpn69yzNw5KjrUSqZ8-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-4" value="Dcorp DC&lt;br&gt;(here u get krbtgt secrets)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-6" value="Admin - DC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-9" value="ABUSE DCSync" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.911;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-9" target="igHpn69yzNw5KjrUSqZ8-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-12" value="get KRBTGT account secrets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.5491" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-13" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5" y="380" as="sourcePoint" />
+            <mxPoint x="845" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-14" value="extracting secrets from domain controller of dollarcorp." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="398" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="499.7368421052631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-18" value="Rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.4696" y="-3" relative="1" as="geometry">
+            <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-15" value="Student VM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="540" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-26" value="Winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.205" y="-2" relative="1" as="geometry">
+            <mxPoint x="8" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-17" value="SVCAdmin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-20" value="Dcorp-dc&lt;br&gt;1)port forwarding karo&lt;br&gt;2) Run safteykatz&lt;br&gt;HASH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="541" y="471" width="129" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.579;exitY=0.022;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-17" target="igHpn69yzNw5KjrUSqZ8-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-22" value="1)copy Loader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="351" y="398" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-29" value="Using the secrets of krbtgt account, create a Golden ticket.&amp;nbsp;Use the Golden ticket to (once again) get domain admin privileges from a machine." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="610" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-31" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="600" as="sourcePoint" />
+            <mxPoint x="840" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="709.7368421052631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-33" value="Rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4696" y="-3" relative="1" as="geometry">
+            <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-34" value="Student VM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-35" target="igHpn69yzNw5KjrUSqZ8-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-38" value="Winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.4698" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-35" value="SVCAdmin&lt;br&gt;1)safteykatz to get krbtgt hash&lt;br&gt;2)rubeus command output &lt;br&gt;3)execute 2 to get golden ticket" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230.5" y="660" width="159" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-36" value="Dcorp-dc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-39" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="780" as="sourcePoint" />
+            <mxPoint x="840" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-40" value="&lt;div&gt;Try to get command execution on the domain controller by creating silver ticket for:&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HTTP&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="790" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-41" target="igHpn69yzNw5KjrUSqZ8-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-44" value="winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.2396" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-41" value="Student VM&lt;br&gt;1) rubeus to get silver ticket" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="11" y="840" width="149" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-42" value="dcorp-dc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-45" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="950" as="sourcePoint" />
+            <mxPoint x="850" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-46" target="igHpn69yzNw5KjrUSqZ8-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-50" value="winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.1579" y="5" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-46" value="elevated shell STUDENT VM&lt;br&gt;1) rubeus to download ticket." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-47" value="Use Domain Admin privileges obtained earlier to execute the Diamond Ticket attack." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="968" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-48" value="dcorp-dc(admin)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-51" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1150" as="sourcePoint" />
+            <mxPoint x="850" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-52" value="Use Domain Admin privileges obtained earlier to abuse the DSRM credential for persistence." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="1160" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="igHpn69yzNw5KjrUSqZ8-55" target="igHpn69yzNw5KjrUSqZ8-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-54" value="winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="igHpn69yzNw5KjrUSqZ8-53" vertex="1" connectable="0">
+          <mxGeometry x="-0.1579" y="5" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-55" value="elevated shell STUDENT VM&lt;br&gt;1) rubeus to download DIAMOND ticket." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="1210" width="129" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="igHpn69yzNw5KjrUSqZ8-56" value="dcorp-dc(admin)&lt;br&gt;1)invoke mimi&lt;br&gt;2) change logon settings&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1215" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1320" as="sourcePoint" />
+            <mxPoint x="850" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-2" value="TO execute DCSync as normal user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="21" y="1340" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fUItMxZkbvXYHgVX884n-3" target="fUItMxZkbvXYHgVX884n-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-3" value="student vm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fUItMxZkbvXYHgVX884n-5" target="fUItMxZkbvXYHgVX884n-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-9" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fUItMxZkbvXYHgVX884n-8" vertex="1" connectable="0">
+          <mxGeometry x="0.2569" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fUItMxZkbvXYHgVX884n-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-14" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fUItMxZkbvXYHgVX884n-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1013" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-5" value="check if replication (dcsync) is possible" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="209" y="1440" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fUItMxZkbvXYHgVX884n-7" target="fUItMxZkbvXYHgVX884n-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="1400" />
+              <mxPoint x="490" y="1350" />
+              <mxPoint x="250" y="1350" />
+              <mxPoint x="250" y="1400" />
+              <mxPoint x="90" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-7" value="SVCAdmin (DA)&lt;br&gt;1) modify domain acl of student vm" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-12" value="safteykatz on student vm to get krbtgt hash using dcsyn paramenters.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-15" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1570" as="sourcePoint" />
+            <mxPoint x="850" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUItMxZkbvXYHgVX884n-16" value="modifying security descriptors on dcorp-dc to gain access using ps-remoting and WMI without admin priv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="1578" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-1" value="SVCAdmin(DA)&lt;br&gt;1) run command" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-2" value="13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1668" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-3" value="&lt;font size=&quot;3&quot;&gt;13&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1618" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-4" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1740" as="sourcePoint" />
+            <mxPoint x="850" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-5" value="Using the Kerberoast attack, crack password of a SQL server service account." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="1758" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-6" target="0Q8oXIi3BY1QwOnWuRve-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-6" target="0Q8oXIi3BY1QwOnWuRve-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86" y="1990" />
+              <mxPoint x="445" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-13" value="Rubeus for hash&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Q8oXIi3BY1QwOnWuRve-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.2617" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-6" value="Student VM&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="26" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-7" value="Find sql services running&amp;nbsp; on user acc" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="209" y="1840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-10" value="SVCAdmin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-15" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1838" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-16" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="315" y="1838" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-17" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="345" y="1968" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="2040" as="sourcePoint" />
+            <mxPoint x="850" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-19" value="Find a server in the dcorp domain where Unconstrained Delegation is enabled." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="2050" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-20" target="0Q8oXIi3BY1QwOnWuRve-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-32" value="Rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Q8oXIi3BY1QwOnWuRve-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0046" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-20" value="Student VM&lt;div&gt;1) Get-DomainComputer -Unconstrained&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-23" value="Dcorp-DC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="91" y="2178" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-24" value="Dcorp-Appsrv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="91" y="2218" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-20" target="0Q8oXIi3BY1QwOnWuRve-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-26" value="Since we need admin access to the machine&lt;br&gt;in order to exploit unconstrained delegation, we have to check if&amp;nbsp;&lt;br&gt;any of the machines that we have compromised (a)appAdmin, b)srvadmin, c)websvc) have admin access to Dcorp-Appsrv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="2080" width="670" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Q8oXIi3BY1QwOnWuRve-28" target="0Q8oXIi3BY1QwOnWuRve-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-34" value="Find-PsRemotingLocalAdminAccess" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Q8oXIi3BY1QwOnWuRve-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.2242" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-35" value=";winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0Q8oXIi3BY1QwOnWuRve-33" vertex="1" connectable="0">
+          <mxGeometry x="0.5396" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-28" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;a)appAdmin&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="275" y="2158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-31" value="Dcopr-appsrv&lt;br&gt;1) run monito listnerr&lt;br&gt;2) transfer rubius and run it&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="2149" width="120" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="0Q8oXIi3BY1QwOnWuRve-37" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="2270" as="sourcePoint" />
+            <mxPoint x="850" y="2270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-1" value="Enumerate users for whom Constratined Delegation is enabled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="2278" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-2" target="OC2lT6waM1CBM72XUrOz-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-2" value="Student VM&amp;nbsp;&lt;br&gt;1) enumerate constrained delegation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2340" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-3" value="websvc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-10" target="OC2lT6waM1CBM72XUrOz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-10" value="Student vm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="2540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-11" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CI-admin(jenkins)&lt;br&gt;set rbcd on dcorp mgmt for student vm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="2540" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-13" value="Domain Admin&lt;br&gt;(SCVAdmin)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270.86" y="2720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-14" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="2650" as="sourcePoint" />
+            <mxPoint x="850" y="2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-15" value="Enterprise admin escalation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2658" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-16" target="OC2lT6waM1CBM72XUrOz-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="OC2lT6waM1CBM72XUrOz-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151.82999999999953" y="2780" as="sourcePoint" />
+            <mxPoint x="231.82999999999998" y="2920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="192.86" y="2780" />
+              <mxPoint x="192.86" y="2850" />
+              <mxPoint x="171.86" y="2850" />
+              <mxPoint x="171.86" y="2935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-40" value="rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.0564" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-16" value="Student vm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="82.86" y="2720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391.86" y="2760" as="sourcePoint" />
+            <mxPoint x="611.86" y="2700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="411.86" y="2700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-20" value="1) copy loader.exe on dc&lt;br&gt;2)winrs into dc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="441.86" y="2710" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-21" value="Dcorp-dc&lt;br&gt;1)port forwarding&lt;br&gt;2) download and run saftey kartz&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2660" width="209" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-24" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="371.86" y="2880" as="sourcePoint" />
+            <mxPoint x="717.36" y="2790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330.86" y="2820" />
+              <mxPoint x="717.86" y="2820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-25" value="DCSync attack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.0706" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.704;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="OC2lT6waM1CBM72XUrOz-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="759.996" y="2792.04" as="sourcePoint" />
+            <mxPoint x="501.86" y="2890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="759.86" y="2870" />
+              <mxPoint x="300.86" y="2870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-27" value="trust keys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-26" vertex="1" connectable="0">
+          <mxGeometry x="0.2363" y="5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-28" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="386.86" y="2798" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-29" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="366.86" y="2848" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-30" value="mcorp$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192.86" y="2920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-31" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-16" target="OC2lT6waM1CBM72XUrOz-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111.86" y="2870" as="sourcePoint" />
+            <mxPoint x="161.86" y="2820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="111.86" y="2950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-32" value="betterSafteyKartz, forge&lt;br&gt;inter-realm tgt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.6345" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-33" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="82.86" y="2840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-41" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="192.86" y="2818" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-42" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="3010" as="sourcePoint" />
+            <mxPoint x="850" y="3010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-43" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" parent="1" target="OC2lT6waM1CBM72XUrOz-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391.86" y="2760" as="sourcePoint" />
+            <mxPoint x="611.86" y="2700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441.86" y="2760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-19" value="import trust keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="2680" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-44" value="Using DA access to dollarcorp.moneycorp.local, escalate privileges to Enterprise Admin or &lt;br&gt;DA to the parent domain, moneycorp.local using dollarcorp&#39;s krbtgt hash." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="11" y="3010" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-45" value="#assume we already have krbtgt hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="3068" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-46" target="OC2lT6waM1CBM72XUrOz-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-49" value="Rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.7181" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-46" target="OC2lT6waM1CBM72XUrOz-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-52" value="winrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.2943" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-46" value="Student vm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="3130" width="129" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-47" value="moneycorp.local&lt;br&gt;DC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="3130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-50" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="3128" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-53" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="234" y="3170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-54" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="3210" as="sourcePoint" />
+            <mxPoint x="850" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-55" value="With DA privileges on dollarcorp.moneycorp.local, get access to SharedwithDCorp share on the DC of eurocorp.local forest." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry y="3210" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-56" target="OC2lT6waM1CBM72XUrOz-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-60" value="safteykatz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-58" vertex="1" connectable="0">
+          <mxGeometry x="-0.3296" y="-3" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-56" target="OC2lT6waM1CBM72XUrOz-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-62" value="inter-realm tgt using&amp;nbsp;&lt;br&gt;bettersafteykatz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.2737" y="-1" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-56" value="student vm&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-57" value="ecorp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="3280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-59" value="get trust keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="3270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.608;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OC2lT6waM1CBM72XUrOz-56" target="OC2lT6waM1CBM72XUrOz-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OC2lT6waM1CBM72XUrOz-66" value="service ticket request using rubeus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OC2lT6waM1CBM72XUrOz-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.4326" y="2" relative="1" as="geometry">
+            <mxPoint x="70" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g942u3MSkmxfNT7SlP2S-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="20" as="sourcePoint" />
+            <mxPoint x="850" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

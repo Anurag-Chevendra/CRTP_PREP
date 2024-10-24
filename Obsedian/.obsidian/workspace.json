@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "a632d4ccf61393b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "114f2240597ec475",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25628cb0ee86aff9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3df11badaff47ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6a790f6daf49eb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc244d9f0cfedd38",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "00d37e64151de06a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "540e7010055aeb3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7e06d8363d9904e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a573d546fb39dd24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f18928a4e397fdab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7d529e2d304f245f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "47b703555c25c04e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7aea7521339bed9d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "25628cb0ee86aff9",
+  "lastOpenFiles": [
+    "Persistence/ACLs - Rights Abuse.md",
+    "Enumeration/krbtgt acc.md",
+    "Persistence/Custom SSP.md",
+    "priv-esc/enterprise admin or DA to parent domain.md",
+    "Persistence/ACLs - AdminSDHolder.md",
+    "Enumeration/Untitled.md",
+    "Enumeration/domain RBCD.md",
+    "Enumeration/All Enterprise Admins.md",
+    "Enumeration/Enumeration Start.md",
+    "Enumeration/Access Domain Admin sessions.md",
+    "Enumeration/to abuse services.md",
+    "Enumeration/unable to run commands.md",
+    "Persistence/silver ticket.md",
+    "Enumeration/write permission.md",
+    "Enumeration/Constrained Delegation.md",
+    "Enumeration/Unconstrained Delegation.md",
+    "Enumeration/Unconstrained Delegation {user}.md",
+    "Lateral movement/Rubeus.md",
+    "Enumeration/BloodHound.md",
+    "Lateral movement/Mimikatz.md",
+    "Lateral movement/user account used as service account {kerberoast}.md",
+    "Persistence/Kerberoast.md",
+    "Persistence/Golden Ticket.md",
+    "Persistence/security descriptors.md",
+    "Persistence/DCSync.md",
+    "Persistence/DSRM.md",
+    "Pasted image 20241005230856.png",
+    "priv-esc",
+    "Enumeration",
+    "Untitled.canvas",
+    "Lateral movement",
+    "Persistence"
+  ]
+}
